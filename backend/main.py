@@ -33,6 +33,7 @@ app = FastAPI(title="CityPulse AI API", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://city-pulse-ai-frontend.vercel.app",
         "http://localhost:5173", "http://127.0.0.1:5173",
         "http://localhost:3000", "http://127.0.0.1:3000",
         "http://localhost:5500", "http://127.0.0.1:5500",
