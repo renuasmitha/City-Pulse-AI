@@ -1,0 +1,17 @@
+﻿# Python virtual environments
+backend/.venv/
+backend/venv/
+
+# Large AI model
+backend/weights/clip/ViT-B-32.pt
+
+# Temporary package files
+backend/.pip-tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+backend/.env
