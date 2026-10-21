@@ -1,4 +1,4 @@
-# 🌍 CityPulse AI — Smart Waste Management Platform
+#  CityPulse AI — Smart Waste Management Platform
 
 **Making waste management smarter through computer vision, digital twin simulation, and data-driven recommendations.**
 
@@ -8,16 +8,16 @@ Built for **Code Clash**, the project combines a web-based dashboard with a Pyth
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 📊 1. Smart Waste Management Dashboard
+###  1. Smart Waste Management Dashboard
 
 * Monitor waste-bin status and fill levels.
 * Visualize waste management activity through interactive charts and graphs.
 * View collection priorities and operational recommendations.
 * Access bin, fleet, and collection information from a centralized interface.
 
-### ♻️ 2. Computer Vision-Based Waste Scanning
+###  2. Computer Vision-Based Waste Scanning
 
 * Upload images for waste-category detection.
 * Use a pretrained YOLO-World model to identify prompted object categories.
@@ -26,7 +26,7 @@ Built for **Code Clash**, the project combines a web-based dashboard with a Pyth
 
 **Note:** Detection results are model predictions and may require manual verification. Reliable bin-fill estimation requires a suitable fill-classification model.
 
-### 🗺️ 3. Digital Twin Simulation
+###  3. Digital Twin Simulation
 
 * Represent waste collection operations through a simulated environment.
 * Visualize bin and fleet information.
@@ -35,14 +35,14 @@ Built for **Code Clash**, the project combines a web-based dashboard with a Pyth
 
 The current digital twin uses simulated operational data rather than a live municipal infrastructure connection.
 
-### 🚛 4. Fleet and Collection Monitoring
+###  4. Fleet and Collection Monitoring
 
 * View fleet information and collection activity.
 * Track simulated collection operations.
 * Visualize bin status changes during supported collection workflows.
 * Explore collection priorities through the dashboard.
 
-### 💡 5. Data-Driven Recommendations
+###  5. Data-Driven Recommendations
 
 * Display recommendations based on available waste-management information.
 * Highlight collection priorities and potential operational improvements.
@@ -52,7 +52,7 @@ The current recommendation system uses backend logic; it does not use a generati
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component         | Technologies                         |
 | ----------------- | ------------------------------------ |
@@ -67,7 +67,7 @@ The current recommendation system uses backend logic; it does not use a generati
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
               USER
@@ -105,7 +105,7 @@ The frontend communicates with the FastAPI backend through API endpoints. Upload
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 **Live Project:** https://city-pulse-ai-frontend.vercel.app/
 
@@ -115,7 +115,7 @@ Explore the deployed dashboard to see the project's interface and supported feat
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 
 ### Prerequisites
 
@@ -206,7 +206,7 @@ A deployed static frontend cannot independently run the local FastAPI vision ser
 
 These boundaries distinguish the features currently implemented from capabilities that could be added in future versions.
 
-🔮 Future Improvements
+## Future Improvements
 
 Potential next steps include:
 
@@ -220,7 +220,7 @@ Potential next steps include:
 These are proposed improvements, not claims about existing functionality.
 
 
-The Vision
+## The Vision
 
 CityPulse AI explores how computer vision, simulation, and data-driven decision-making can contribute to smarter waste management.
 
